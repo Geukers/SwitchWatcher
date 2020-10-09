@@ -11,5 +11,6 @@ The app works by refreshing the best buy page every minute and verifying if the 
 ## How to make it work
 
 1. Allow Python to use Chrome by downloading chrome driver from here : https://sites.google.com/a/chromium.org/chromedriver/downloads
+2. Set where the driver were installed in the code where it says : driver = webdriver.Chrome("<<YOUR_PATH>>")
 2. Run the application. I created and ran the application using PyCharm, and it worked like a charm.
   * You can look for different products on Best Buy by changing the URLs in "best_buy_links"
